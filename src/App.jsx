@@ -11,10 +11,10 @@ function App() {
   function updateWorkout()
   {
     if(muscles.length<1) return;
+    window.location.href='#exercise';
     let newWorkout=generateWorkout({poison,muscles,goal});
     console.log(newWorkout);
     setgen_workout(newWorkout);
-    window.location.href='#exercise';
   }
   return (
     <main className='min-h-screen flex flex-col bg-gradient-to-r from-slate-600 to-slate-950 text-white text-sm sm:text-base'>
