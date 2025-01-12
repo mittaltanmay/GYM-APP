@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html
+{
+  scroll-behavior:smooth;
+}
+*{
+  font-family:"Poppins",sans-seriff;
+}
+.blueshadow
+{
+  box-shadow:6px 6px 0 0 rgb(96 165 250);
+}
+.blueshadow:hover
+{
+  color:rgb(96,165,250);
+  background:white;
+}
+.blueshadow:active
+{
+  box-shadow:3px 3px 0 0 rgb(96 165 250);
+}
+.blueborder
+{
+  border:none;
+}
+.blueborder:hover
+{
+  border-style:solid;
+  border-width:1px;
+  border-color:rgb(96 165 250);
+}
